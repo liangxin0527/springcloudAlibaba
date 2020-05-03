@@ -9,7 +9,7 @@ spring:
         git:
           username: liangxin0527
           uri: https://github.com/liangxin0527/springcloud-config.git
-          password: lbaci520
+          password: 
           #配置zaigithub上的仓库名
           search-paths: springcloud-config
       label: master
