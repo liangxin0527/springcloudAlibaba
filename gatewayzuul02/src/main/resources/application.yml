@@ -1,0 +1,27 @@
+server:
+  port: 8009
+spring:
+  application:
+    name: zuulgateway
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://192.168.187.1:8001/eureka,http://192.168.187.1:8002/eureka
+zuul:
+  prefix: /api
+  ignored-services: "*"
+  routes:
+    user:
+      strip-prefix: false
+      path: /user/**
+      serviceId: userprovider
+    class:
+      strip-prefix: false
+      path: /class/**
+      serviceId: classprovider
+    feign2:
+      strip-prefix: false
+      path: /feign/**
+      serviceId: feignuserclass

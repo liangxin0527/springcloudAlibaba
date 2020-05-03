@@ -1,0 +1,40 @@
+server:
+  port: 8014
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      #采样取值介于 0到1之间，1则表示全部收集
+      probability: 1
+  application:
+    name: busconfigserver
+  cloud:
+    config:
+      server:
+        git:
+          username: liangxin0527
+          uri: https://github.com/liangxin0527/springcloud-config.git
+          password: lbaci520
+          #配置zaigithub上的仓库名
+          search-paths: springcloud-config
+      label: master
+  rabbitmq:
+    port: 5672
+    username: lbaci
+    password: lbaci
+    host: 192.168.197.143
+eureka:
+  instance:
+    hostname: 192.168.187.1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8001/eureka/,http://${eureka.instance.hostname}:8002/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+#rabbitmq相关设置 ，暴露 bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

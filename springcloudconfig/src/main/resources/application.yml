@@ -1,0 +1,24 @@
+server:
+  port: 8012
+spring:
+  application:
+    name: springcloudconfigserver
+  cloud:
+    config:
+      server:
+        git:
+          username: liangxin0527
+          uri: https://github.com/liangxin0527/springcloud-config.git
+          password: lbaci520
+          #配置zaigithub上的仓库名
+          search-paths: springcloud-config
+      label: master
+
+eureka:
+  instance:
+    hostname: 192.168.187.1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8001/eureka/,http://${eureka.instance.hostname}:8002/eureka/
+    register-with-eureka: true
+    fetch-registry: true

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka01/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver2/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver01/pom.xml" />
+        <option value="$PROJECT_DIR$/userconsumer01/pom.xml" />
+        <option value="$PROJECT_DIR$/userprovider02/pom.xml" />
+        <option value="$PROJECT_DIR$/userprovider3/pom.xml" />
+        <option value="$PROJECT_DIR$/classprovider01/pom.xml" />
+        <option value="$PROJECT_DIR$/classprovider02/pom.xml" />
+        <option value="$PROJECT_DIR$/userclassprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewayzuul01/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewayzuul02/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrixdashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewayspringcloud01/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudbusconfigserver/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

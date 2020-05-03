@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/classprovider01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/classprovider02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gatewayspringcloud01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gatewayzuul01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gatewayzuul02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrixdashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudbusconfigserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userclassprovider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userprovider02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userprovider3/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

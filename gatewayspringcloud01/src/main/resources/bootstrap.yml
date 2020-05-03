@@ -1,0 +1,20 @@
+
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      #采样取值介于 0到1之间，1则表示全部收集
+      probability: 1
+  cloud:
+    config:
+      #配置分支
+      label: master
+      #配置文件前置 比如 GitHub中是gateway-dev
+      name: gateway
+      #配置使用哪个版本的测试文件， test dev
+      profile: dev
+      #配置中心服务地址
+      uri: http://192.168.187.1:8014
+
+
